@@ -1,5 +1,5 @@
 # Напишем программу, которая выбирает из колоды 52 карт произвольную.
-
+# encoding: UTF-8
 if Gem.win_platform?
 	Encoding.default_external = Encoding.find(Encoding.locale_charmap)
 	Encoding.default_internal = __ENCODING__
